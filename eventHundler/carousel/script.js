@@ -1,6 +1,6 @@
 window.onload = init;
 
-let imgArray = ['/JS/mouseonmove/images1.png', '/JS/mouseonmove/images2.png', '/JS/mouseonmove/images3.jpg', '/JS/mouseonmove/images4.png'];
+let imgArray = ['images1.png', 'images2.png', 'images3.jpg', 'images4.png'];
 
 let imgArrayIndex = 0;
 let btn_l = document.getElementById('btn_left');
@@ -26,7 +26,7 @@ function click_right(){
       imgArrayIndex = 0;
    }
    images.src = imgArray[imgArrayIndex];
-  
+
 }
 
 console.log(init);
