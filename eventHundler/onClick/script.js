@@ -1,4 +1,4 @@
-window.onload = init; //обработчик onload для выполнения скрипта после загрузки страницы 
+window.onload = init; //обработчик onload для выполнения скрипта после загрузки страницы
 
 function init(){
    let image = document.getElementById('changeImage');
@@ -8,5 +8,5 @@ function init(){
 }
 function showImage(){
    let image = document.getElementById('changeImage'); //получаем элемент (объект) в переменную image
-   image.src = "/JS/eventHandler/harryPotter.jpg"; //назначаем свойству src объекту (ссылка на объект) в переменной image
+   image.src = "harryPotter.jpg"; //назначаем свойству src объекту (ссылка на объект) в переменной image
 }
